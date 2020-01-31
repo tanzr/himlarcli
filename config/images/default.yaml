@@ -56,6 +56,17 @@ images:
     'properties':
       'hw_disk_bus':    'scsi'
       'hw_scsi_model':  'virtio-scsi'
+  'centos8':
+    'name':             'GOLD CentOS 8'
+    'depricated':       'Outdated (CentOS)'
+    'url':              'http://builder/'
+    'latest':           'centos8-latest.qcow2'
+    'min_ram':          1024
+    'min_disk':         8
+    'visibility':       'public'
+    'properties':
+      'hw_disk_bus':    'scsi'
+      'hw_scsi_model':  'virtio-scsi'
   'debian9':
     'name':             'GOLD Debian 9'
     'depricated':       'Outdated (Debian)'
